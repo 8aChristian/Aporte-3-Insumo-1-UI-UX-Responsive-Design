@@ -1,0 +1,14 @@
+ion-card{
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+}
+ion-content{
+    --ion-background-color: red;
+}
+@media screen and (max-width: 400px) {
+
+        ion-content{
+            --ion-background-color: green;
+        }
+    }
